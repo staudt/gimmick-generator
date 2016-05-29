@@ -4,22 +4,29 @@ function getRandom(list) {
 }
 
 function generate() {
-    reveals = ["",
+    reveals = ["", "", "",
     	"illegitimate",
     	"soon to be revealed"
     ];
 
 
-    callsforexcuse = ["Wait!",
+    callsforexcuse = [
+        "Wait!",
         "Hold on!",
-        "No, no, no!"
+        "Stop!",
+        "No, no, no!",
+        "Oh no!"
     ];
 
     excuses = [
     	"I'm Vince McMahon's illegitimate son, so I demand a",
     	"I know a Stephanie McMahon dirty secret and I demand a",
-        "I have a winning lawsuit againt WWE and want a",
-        "I'm friends with JBL, therefore I get a"
+        "I have a winning lawsuit againt the WWE but I will settle for a",
+        "I'm friends with JBL, therefore I get a",
+        "I play golf with Vince and I'll get a",
+        "My dad is an advertiser for RAW and I get a",
+        "I'm the last WWE stockholder besides Vince. I deserve a",
+        "Seriously, this is fake sports. Just come up with something better and"
     ];
 
     gimmick = [

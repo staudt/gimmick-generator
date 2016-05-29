@@ -1,1 +1,1 @@
-jobs = ['Garbage Man', 'Software Engineer', 'Mad Scientist', 'Perverted Old Man', 'Ring Crew', 'Failed Rock Star', 'Doctor', 'School Teacher', 'Barista', 'Dirty Sheet Writer', 'Ex-Con', 'Porn Star'];
+jobs = ['Garbage man', 'Software Engineer', 'mad Scientist', 'Perverted old man', 'Ring crew member', 'failed Rock Star', 'Doctor', 'school Teacher', 'Barista', 'Dirtysheet Writer', 'Ex-Convict', 'Pornstar', 'Lumberjack', 'general repair man', 'Mechanic', 'Hockey player', 'Soccer player', 'Football star', 'Rugby player'];
