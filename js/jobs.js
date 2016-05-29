@@ -1,0 +1,1 @@
+jobs = ['Garbage Man', 'Software Engineer', 'Mad Scientist', 'Perverted Old Man', 'Ring Crew', 'Failed Rock Star', 'Doctor', 'School Teacher', 'Barista', 'Dirty Sheet Writer', 'Ex-Con', 'Porn Star'];
