@@ -31,10 +31,13 @@ function generate() {
         "a " + getRandom(categories)
     ];
 
-    document.getElementById("name").innerHTML = getRandom(firstNames) + ' ' + getRandom(secondNames);
-    document.getElementById("gimmick").innerHTML =getRandom(gimmick);
-    document.getElementById("callforexcuse").innerHTML =getRandom(callsforexcuse);
-    document.getElementById("excuse").innerHTML =getRandom(excuses);
+    var myname = getRandom(firstNames) + ' ' + getRandom(secondNames);
+    var mygimmick = getRandom(gimmick);
+    document.getElementById("name").innerHTML = myname;
+    document.getElementById("gimmick").innerHTML = mygimmick;
+    document.getElementById("callforexcuse").innerHTML = getRandom(callsforexcuse);
+    document.getElementById("excuse").innerHTML = getRandom(excuses);
+    document.getElementById("tweetgimmick").setAttribute("href", "https://twitter.com/intent/tweet?text=I%20just%20signed%20with%20NXT!%20My%20name%20will%20be%20" + myname + "%20and%20I%27ll%20be%20" + mygimmick + ". http%3A%2F%2Fstaudt.github.io%2Fgimmick-generator%2F");
 }
 
 generate();
